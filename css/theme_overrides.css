@@ -1,0 +1,36 @@
+:root {
+  --md-accent-fg-color: #076d63;
+}
+
+.md-grid {
+  max-width: 1200px; 
+}
+
+
+h2 {
+    color: var(--md-accent-fg-color);
+    border-top:  var(--md-accent-fg-color) thin solid;
+    border-bottom:  var(--md-accent-fg-color) thin solid;
+}
+
+div.tabbed-set {
+    background-color:  #fafafa;
+}
+
+.tabbed-content {
+    padding:  5px;
+}
+
+li li {
+    list-style-type: circle;
+}
+
+li li li {
+    list-style-type: "–";
+    font-size: 0.9em;
+}
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+}
